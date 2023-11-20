@@ -7,4 +7,9 @@ public class Cylinder extends Circle {
         if (height < 0) this.height = 0;
         else this.height = height;
     }
+
+    public double getHeight() {
+        return height;
+    }
+
 }
