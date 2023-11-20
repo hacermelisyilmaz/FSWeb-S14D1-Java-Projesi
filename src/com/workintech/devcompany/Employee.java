@@ -5,7 +5,10 @@ public class Employee {
     private String name;
     private double salary;
 
-    public Employee() {
+    public Employee(int id, String name, double salary) {
+        setId(id);
+        setName(name);
+        setSalary(salary);
     }
 
     public String work() {
