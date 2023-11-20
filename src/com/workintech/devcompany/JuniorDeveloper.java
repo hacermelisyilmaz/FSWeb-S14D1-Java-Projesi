@@ -1,13 +1,13 @@
 package com.workintech.devcompany;
 
 public class JuniorDeveloper extends Employee {
-    public JuniorDeveloper(int id, String name, double salary) {
-        super(id, name, salary);
+    public JuniorDeveloper(int id, String name) {
+        super(id, name);
     }
 
     @Override
     public String work() {
-        setSalary(getSalary() + 500);
+        setSalary(32000);
         return getName() + " (junior developer) has started to work.";
     }
 }
