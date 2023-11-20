@@ -8,6 +8,9 @@ public class Employee {
     public Employee() {
     }
 
+    public String work() {
+        return "Employee has started to work.";
+    }
 
     public int getId() {
         return id;
