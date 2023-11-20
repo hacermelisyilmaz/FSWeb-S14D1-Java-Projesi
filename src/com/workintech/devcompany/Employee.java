@@ -12,7 +12,7 @@ public class Employee {
     }
 
     public String work() {
-        return "Employee has started to work.";
+        return getName() + " (employee) has started to work.";
     }
 
     public int getId() {

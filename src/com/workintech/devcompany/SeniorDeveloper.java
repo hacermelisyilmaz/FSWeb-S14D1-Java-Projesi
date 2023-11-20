@@ -7,6 +7,6 @@ public class SeniorDeveloper extends Employee {
 
     @Override
     public String work() {
-        return "Senior developer has started to work.";
+        return getName() + " (senior developer) has started to work.";
     }
 }
