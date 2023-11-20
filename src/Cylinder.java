@@ -1,2 +1,10 @@
-public class Cylinder {
+public class Cylinder extends Circle {
+    private double height;
+
+    public Cylinder(double height, double radius) {
+        super(radius);
+
+        if (height < 0) this.height = 0;
+        else this.height = height;
+    }
 }
