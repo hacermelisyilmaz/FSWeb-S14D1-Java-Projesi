@@ -11,4 +11,15 @@ public class Rectangle {
         if (length < 0) this.length = 0;
         else this.length = length;
     }
+
+    public double getWidth() {
+        return width;
+    }
+
+    public double getLength() {
+        return length;
+    }
+    public double getArea() {
+        return length * width;
+    }
 }
