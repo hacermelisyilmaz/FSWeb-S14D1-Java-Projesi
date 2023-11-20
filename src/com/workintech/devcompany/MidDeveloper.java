@@ -7,6 +7,7 @@ public class MidDeveloper extends Employee {
 
     @Override
     public String work() {
+        setSalary(getSalary() + 500);
         return getName() + " (mid developer) has started to work.";
     }
 }

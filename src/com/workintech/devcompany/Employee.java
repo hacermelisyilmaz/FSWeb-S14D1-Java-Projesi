@@ -12,6 +12,7 @@ public class Employee {
     }
 
     public String work() {
+        setSalary(getSalary() + 500);
         return getName() + " (employee) has started to work.";
     }
 

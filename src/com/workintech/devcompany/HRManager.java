@@ -7,6 +7,7 @@ public class HRManager extends Employee {
 
     @Override
     public String work() {
+        setSalary(getSalary() + 500);
         return getName() + " (HR manager) has started to work.";
     }
 }
